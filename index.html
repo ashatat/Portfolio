@@ -2,9 +2,63 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
-	<title>Protfolio</title>
+	<title>Ahmed Shatat | Web developer</title>
+	<link rel="stylesheet" href="css/font-awesome-4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="css/style.css">
+	<link href="https://fonts.googleapis.com/css?family=Berkshire+Swash|Bree+Serif|Indie+Flower" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Kalam:300" rel="stylesheet">
+
 </head>
 <body>
-	<h1>Portfolio page</h1>
+	<div id="main">
+		<div>
+			<img src="images/my_pic.jpeg" alt="">
+			<figcaption>Ahmed Shatat</figcaption>
+		</div>
+		<ul>
+			<li id="about"><a href="#about_me">About me</a></li>
+			<li><a href="#exp">Coding skills</a></li>
+			<li><a href="#contact">Contacts</a></li>
+		</ul>
+	</div> <!--end of main-->
+
+	<div class="right">
+		<div id="about_me" class="container"> 
+			<h2>About me</h2>
+			<p>My name is Ahmed, I had a BA in Architecture, at somepoint I realized that programming is my passion, so since then I started teaching myself how to code, at this point I am looking forward at any chance to expand my knowledge, learn from other coders, so I can call myself a programmer at some point :)</p>
+		</div>
+		<div id="exp" class="container">
+			<h2>experience and skills</h2>
+			<div class="skills">
+				<div>
+					<h3>HTML/CSS</h3>
+					<div><span>75% &nbsp;</span></div>
+				</div>
+				<div>
+					<h3>JavaScript</h3>
+					<div><span>40% &nbsp;</span></div>
+				</div>
+				<div>
+					<h3>Python</h3>
+					<div><span>40% &nbsp;</span></div>
+				</div>
+			</div>
+		</div>
+		<div id="contact" class="container">
+			<h2>Contact Me</h2>
+			<ul>
+				<li><i class="fa fa-phone fa-fw"></i> 0599946544</li>
+				<li><i class="fa fa-envelope fa-fw"></i> a.shatat@hotmail.com</li>
+			</ul>
+			<ul class="follow_me">
+				<li><a href="https://fb.me/ahmed.shatat.986" target="_blank"><i class="fa fa-facebook"></i></a></li>
+				<li><a href="https://www.linkedin.com/in/ahmed-Shatat-2aab9970" target="_blank"><i class="fa fa-linkedin"></i></a></li>
+				<li><a href="https://github.com/ashatat" target="_blank"><i class="fa fa-github fa-fw"></i></a></li>
+				<li><a href="https://www.freecodecamp.org/ashatat" target="_blank"><i class="fa fa-free-code-camp"></i></a></li>
+				<li><a href="https://www.codewars.com/users/ashatat" target="_blank"><img src="images/codewars.svg" alt=""></a></li>
+			</ul>
+		</div>
+	</div>
+	<script src="js/script.js"></script>
 </body>
 </html>

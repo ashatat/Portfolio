@@ -17,7 +17,9 @@ h2, h3 {
 	font-size: 60px;
 }
 h3 {
-	font-size: 40px;
+	font-size: 30px;
+	-webkit-margin-after:0;
+	font-weight: lighter;
 }
 a {
 	text-decoration: none;
@@ -79,13 +81,31 @@ a {
 	width: 70%;
 	
 }
-#about_me p {
-	text-align: justify;
-}
 .container {
 	height: 100vh;
 	padding: 100px 120px 20px;
 }
+#about_me p {
+	text-align: justify;
+}
+#skills div>div {
+	background-color: rgba(0,0,250,0.45);
+}
+#skills span {
+	text-align: right;
+	display: block;
+	height: 35px;
+}
+	
+.p75 {
+	width: 75%;
+	background-color: blue;
+}
+.p40 {
+	width: 40%;
+	background-color: blue;
+}
+
 
 .follow_me {
 	margin-top: 50px;
@@ -99,7 +119,7 @@ a {
 }
 
 .follow_me li img {
-	width: 80%;
+	width: 60%;
 	position: absolute;
 	top: 50%;
 	left: 50%;

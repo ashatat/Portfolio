@@ -79,7 +79,7 @@ a {
 .right{
 	float: right;
 	width: 70%;
-	
+
 }
 .container {
 	height: 100vh;
@@ -89,14 +89,14 @@ a {
 	text-align: justify;
 }
 #skills div>div {
-	background-color: rgba(0,0,250,0.45);
+	background-color: rgb(208, 193, 190);
 }
 #skills span {
 	text-align: right;
 	display: block;
 	height: 35px;
 }
-	
+
 .p75 {
 	width: 75%;
 	background-color: blue;
